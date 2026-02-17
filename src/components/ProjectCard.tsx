@@ -28,7 +28,7 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
       transition={{ duration: 0.4, delay: index * 0.1 }}
 
     >
-      <Card className="glass-border-effect h-full pt-0 backdrop-blur-xl bg-white/10 dark:bg-white/5 border-white/20 dark:border-white/10 shadow-lg transition-all duration-300 hover:bg-white/20 dark:hover:bg-white/10 hover:shadow-xl hover:shadow-black/5 dark:hover:shadow-white/5 overflow-hidden">
+      <Card className="glass-border-effect h-full pt-0 backdrop-blur-xl bg-white/10 dark:bg-white/5 border-white/20 dark:border-white/10 shadow-lg transition-all duration-300 overflow-hidden">
         <div className="relative aspect-video overflow-hidden flex items-center justify-center bg-gradient-to-br from-foreground/5 to-foreground/10">
           {project.image ? (
             <img
