@@ -9,6 +9,15 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "Xero",
+    description:
+      "A local-first desktop app for building custom coding agents, visual workflows, and production software with your own model provider keys.",
+    tags: ["Tauri", "AI Agents", "Developer Tools"],
+    image: "/xero.svg",
+    github: "https://github.com/hyperpush-org/xero",
+    live: "https://xeroshell.com",
+  },
+  {
     title: "Clippster",
     description:
       "A desktop application for automated long-form to short-form video clip generation and editing. Combines AI-powered video processing with a professional timeline editor for content creators.",
@@ -27,21 +36,20 @@ export const projects: Project[] = [
     live: "https://meshlang.dev",
   },
   {
-    title: "Lit UI",
+    title: "Hyperpush",
     description:
-      "Build your UI once with Lit web components and use it everywhere. A framework-agnostic component library powered by web standards.",
-    tags: ["TypeScript", "Web Components", "Lit"],
-    image: "/litui.svg",
-    github: "https://github.com/snowdamiz/lit-ui",
-    live: "https://litui.dev",
+      "Open-source error tracking with built-in token economics for funding projects and rewarding contributors who fix bugs.",
+    tags: ["TypeScript", "Solana", "Developer Tools"],
+    image: "/hyperpush.svg",
+    github: "https://github.com/hyperpush-org/hyperpush",
+    live: "https://hyperpush.dev",
   },
   {
-    title: "OnVibe",
+    title: "Slop Heroes",
     description:
-      "A social media platform for the vibe coding community — developers and creators who embrace AI-assisted development.",
-    tags: ["Elixir", "TypeScript", "Phoenix"],
-    image: "/onvibe.svg",
-    github: "https://github.com/snowdamiz/onvibe",
-    live: "https://onvibe.dev",
+      "A playful project built around fast iteration, expressive systems, and sharp visual identity.",
+    tags: ["Game", "TypeScript", "Mesh"],
+    image: "/slopheroes.svg",
+    live: "https://meshlang.dev",
   },
 ]
